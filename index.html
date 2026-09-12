@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio & Resume of Akshat Dokania - 1st Year Computer Science Student at JECRC University, Passionate Programmer Since Covid-19, and Hardware Enthusiast from Dhanbad.">
+  <meta name="keywords" content="Akshat Dokania, JECRC University, Dhanbad, DPS Hirak, Software Developer, Hardware Enthusiast, Portfolio, Resume">
+  <meta name="author" content="Akshat Dokania">
+
+  <title>Akshat Dokania | Portfolio & Resume</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Elements -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Sticky Glassmorphic Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-badge">AD</div>
+        <span>Akshat<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About & Journey</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#tasks" class="nav-link">Tasks & Work</a></li>
+        <li><a href="#credentials" class="nav-link">Downloads</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" title="Switch Theme" aria-label="Toggle Color Theme">
+          ☀️
+        </button>
+        <a href="#credentials" class="btn btn-primary btn-sm">
+          <span>Resume</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        </a>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left: Intro & Copy -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>1st Year CS Student @ JECRC University</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Hi, I'm <span class="gradient-text">Akshat Dokania</span>
+          </h1>
+
+          <div class="hero-typewriter-container">
+            <span>&gt; </span>
+            <span id="typewriter-text"></span>
+            <span class="typewriter-cursor"></span>
+          </div>
+
+          <p class="hero-bio">
+            First-year Computer Science undergraduate at <strong>JECRC University</strong>. Got passionate about programming around the <strong>Covid-19 pandemic</strong> and love tinkering with <strong>computer hardware and technology</strong>. Welcome to my portfolio and digital resume.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#tasks" class="btn btn-primary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Programming Tasks</span>
+            </a>
+            <a href="#credentials" class="btn btn-secondary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              <span>Download Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-accent">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3 class="gradient-text">JECRC</h3>
+              <p>1st Year B.Tech CSE</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="gradient-text-warm">Dhanbad</h3>
+              <p>DPS Hirak Branch</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="gradient-text-emerald">2020</h3>
+              <p>Coding Since Covid-19</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Profile Visual Card -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            
+            <div class="floating-badge floating-badge-1">
+              <span>⚡ Hardware & Tech</span>
+            </div>
+
+            <div class="floating-badge floating-badge-2">
+              <span>💻 Coder Since 2020</span>
+            </div>
+
+            <div class="avatar-card">
+              <div class="profile-img-box">
+                <img src="assets/images/profile.jpg" alt="Akshat Dokania - Profile Photo" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' fill=\'%231e1b4b\'/><circle cx=\'100\' cy=\'80\' r=\'45\' fill=\'%238b5cf6\'/><circle cx=\'100\' cy=\'200\' r=\'80\' fill=\'%2306b6d4\'/></svg>'">
+              </div>
+
+              <h2 class="avatar-card-name">Akshat Dokania</h2>
+              <p class="avatar-card-role">Computer Science Student • Developer</p>
+              
+              <div class="avatar-location">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Dhanbad ➔ JECRC University, Jaipur</span>
+              </div>
+
+              <div class="avatar-socials">
+                <a href="https://github.com/akshatd0212-dev" target="_blank" class="social-icon-btn" title="GitHub Profile" aria-label="GitHub">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/akshat-dokania-58964335b" target="_blank" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="tel:8767192767" class="social-icon-btn" title="Call Direct" aria-label="Phone Call">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </a>
+                <a href="https://wa.me/918767192767" target="_blank" class="social-icon-btn" title="Chat on WhatsApp" aria-label="WhatsApp">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.394 0 0 5.395 0 12.031c0 2.122.553 4.184 1.605 6.01L.06 24l6.136-1.61c1.76 1 3.766 1.54 5.835 1.54 6.637 0 12.031-5.395 12.031-12.031C24.062 5.395 18.668 0 12.031 0zm0 22.023c-1.815 0-3.59-.49-5.143-1.417l-.368-.22-3.826 1 1.02-3.73-.24-.383A9.97 9.97 0 0 1 2.006 12.03c0-5.528 4.498-10.026 10.025-10.026 5.528 0 10.026 4.498 10.026 10.026 0 5.528-4.498 10.026-10.026 10.026zm5.495-7.518c-.302-.15-1.785-.88-2.062-.98-.277-.1-.479-.15-.681.15-.202.302-.782.98-.958 1.181-.176.2-.353.226-.655.076-.302-.15-1.275-.47-2.428-1.498-.898-.8-1.503-1.789-1.68-2.091-.176-.302-.019-.465.132-.615.136-.135.302-.352.454-.528.151-.176.202-.302.302-.503.101-.2.05-.377-.025-.528-.075-.15-.68-1.637-.932-2.242-.245-.59-.494-.51-.68-.52l-.578-.01c-.201 0-.528.075-.805.377-.277.301-1.058 1.034-1.058 2.522 0 1.487 1.083 2.924 1.234 3.125.151.201 2.132 3.256 5.166 4.566.721.312 1.284.498 1.724.638.725.23 1.385.198 1.906.12.58-.087 1.785-.73 2.037-1.434.252-.704.252-1.307.176-1.433-.075-.126-.276-.201-.578-.352z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT & JOURNEY
+       ========================================================================== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Background</span>
+        <h2 class="section-title">My Journey & <span class="gradient-text">Story</span></h2>
+        <p class="section-subtitle">A brief look at my background from Dhanbad to JECRC University, and my passion for tech.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-card">
+          <h3>From Dhanbad & DPS Hirak Branch</h3>
+          <p>
+            I am from <strong>Dhanbad, Jharkhand</strong>, and completed my schooling at <strong>Delhi Public School (DPS) Hirak Branch</strong>. This is where my early interest in science, mathematics, and computers took shape.
+          </p>
+          <p>
+            School provided the environment to explore how things work fundamentally, giving me a solid basis for logic and technical reasoning.
+          </p>
+          <div class="hobbies-pill-wrap">
+            <span class="hobby-pill">📍 Dhanbad Native</span>
+            <span class="hobby-pill">🏫 DPS Hirak Branch</span>
+            <span class="hobby-pill">🎓 1st Year CS</span>
+          </div>
+        </div>
+
+        <div class="about-text-card">
+          <h3>Hobbies in Hardware & Technology</h3>
+          <p>
+            Alongside programming, I have a deep hobby and interest in <strong>computer hardware and technology</strong>. I enjoy assembling custom PC systems, understanding component choices, troubleshooting hardware issues, and keeping up with the latest tech innovations.
+          </p>
+          <p>
+            Working with physical hardware helps me appreciate how software executes on actual machines, creating a well-rounded foundation in computing.
+          </p>
+          <div class="hobbies-pill-wrap">
+            <span class="hobby-pill">🖥️ PC Hardware</span>
+            <span class="hobby-pill">🔧 Hardware Troubleshooting</span>
+            <span class="hobby-pill">⚙️ Technology Enthusiast</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <!-- Step 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color: var(--cyan); box-shadow: var(--glow-cyan);"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">SCHOOLING</div>
+            <h4 class="timeline-title">DPS Hirak Branch, Dhanbad</h4>
+            <div class="timeline-sub">School Education • Science & Mathematics</div>
+            <p class="timeline-text">
+              Completed schooling in Dhanbad with a focus on science and mathematics, building core analytical and logical thinking skills.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color: var(--violet); box-shadow: var(--glow-violet);"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2020 • THE SPARK</div>
+            <h4 class="timeline-title">Passionate About Programming</h4>
+            <div class="timeline-sub">Self-Guided Learning during Covid-19</div>
+            <p class="timeline-text">
+              During the Covid-19 pandemic, I developed a strong interest in programming. Started learning coding fundamentals and working on programming tasks.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color: var(--orange); box-shadow: 0 0 20px rgba(249, 115, 22, 0.4);"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">HANDS-ON HOBBIES</div>
+            <h4 class="timeline-title">Hardware & Technology Tinkering</h4>
+            <div class="timeline-sub">Assembling Rigs & Tech Exploration</div>
+            <p class="timeline-text">
+              Actively exploring computer hardware components, custom PC assembly, system configurations, and modern computing devices.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color: var(--emerald); box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">PRESENT</div>
+            <h4 class="timeline-title">JECRC University, Jaipur</h4>
+            <div class="timeline-sub">1st Year B.Tech Computer Science & Engineering</div>
+            <p class="timeline-text">
+              Pursuing computer science degree, learning university coursework, and continuing to build programming and hardware skills.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SKILLS SECTION
+       ========================================================================== -->
+  <section id="skills" style="background: rgba(15, 23, 42, 0.3);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">Technical Skills & <span class="gradient-text">Interests</span></h2>
+        <p class="section-subtitle">Programming languages, hardware knowledge, and developer tools.</p>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Programming -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-code">💻</div>
+            <div>
+              <h3>Programming</h3>
+              <p style="font-size: 12.5px; color: var(--text-muted);">Languages & concepts</p>
+            </div>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-badge-pill pill-cyan">Python</span>
+            <span class="skill-badge-pill pill-purple">C / C++</span>
+            <span class="skill-badge-pill pill-emerald">JavaScript</span>
+            <span class="skill-badge-pill pill-orange">HTML5 & CSS3</span>
+            <span class="skill-badge-pill pill-cyan">SQL Basics</span>
+          </div>
+        </div>
+
+        <!-- Hardware & Systems -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-hardware">⚡</div>
+            <div>
+              <h3>Hardware & Tech</h3>
+              <p style="font-size: 12.5px; color: var(--text-muted);">Hands-on hobbies</p>
+            </div>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-badge-pill pill-orange">PC Hardware</span>
+            <span class="skill-badge-pill pill-cyan">Custom PC Assembly</span>
+            <span class="skill-badge-pill pill-purple">Hardware Troubleshooting</span>
+            <span class="skill-badge-pill pill-emerald">System Optimization</span>
+            <span class="skill-badge-pill pill-orange">Tech Gadgets</span>
+          </div>
+        </div>
+
+        <!-- Tools & Environment -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-tools">🛠️</div>
+            <div>
+              <h3>Tools & Setup</h3>
+              <p style="font-size: 12.5px; color: var(--text-muted);">Working environment</p>
+            </div>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-badge-pill pill-cyan">Visual Studio Code</span>
+            <span class="skill-badge-pill pill-purple">Git</span>
+            <span class="skill-badge-pill pill-emerald">GitHub</span>
+            <span class="skill-badge-pill pill-orange">PowerShell / CLI</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROGRAMMING TASKS & WORK SECTION
+       ========================================================================== -->
+  <section id="tasks">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Work & Tasks</span>
+        <h2 class="section-title">Programming <span class="gradient-text">Tasks & Code</span></h2>
+        <p class="section-subtitle">Coding tasks and exercises completed since the Covid-19 pandemic.</p>
+      </div>
+
+      <div class="projects-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+
+        <!-- Card 1: Zip File Archive -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-bg" style="background: linear-gradient(135deg, #1e1b4b, #3b0764, #8b5cf6);"></div>
+            <div class="banner-overlay"></div>
+            <div class="project-tag-pill" style="color: var(--cyan); border-color: rgba(6,182,212,0.4);">ZIP FILE ARCHIVE</div>
+            <div style="font-size: 44px; z-index: 1;">📦💻</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Programming Tasks (Zip File)</h3>
+            <p class="project-desc">
+              Tasks and exercises completed during my self-guided learning journey since getting passionate about coding during the Covid-19 pandemic. Available in a zip file and ready to be loaded upon request.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-badge">Zip Archive</span>
+              <span class="tech-badge">Python Tasks</span>
+              <span class="tech-badge">Code Exercises</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm view-zip-info-btn">
+                Archive Status
+              </button>
+              <a href="https://github.com/akshatd0212-dev" target="_blank" class="btn btn-secondary btn-sm">
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: GitHub Profile -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-bg" style="background: linear-gradient(135deg, #0f172a, #1e293b, #334155);"></div>
+            <div class="banner-overlay"></div>
+            <div class="project-tag-pill" style="color: var(--emerald); border-color: rgba(16,185,129,0.4);">REPOSITORIES</div>
+            <div style="font-size: 44px; z-index: 1;">🐙📁</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">GitHub Profile & Repositories</h3>
+            <p class="project-desc">
+              Check out my GitHub profile for current code repositories, programming practices, and future collaborative college projects.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-badge">GitHub</span>
+              <span class="tech-badge">Open Source</span>
+              <span class="tech-badge">Version Control</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/akshatd0212-dev" target="_blank" class="btn btn-primary btn-sm">
+                Open GitHub Profile ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: University Work -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-bg" style="background: linear-gradient(135deg, #1e3a8a, #0369a1, #0284c7);"></div>
+            <div class="banner-overlay"></div>
+            <div class="project-tag-pill" style="color: var(--orange); border-color: rgba(249,115,22,0.4);">JECRC UNIVERSITY</div>
+            <div style="font-size: 44px; z-index: 1;">🎓📚</div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Coursework & Academic Builds</h3>
+            <p class="project-desc">
+              Academic assignments, practical programming exercises, and engineering projects at JECRC University will be added here as they are developed.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-badge">1st Year CSE</span>
+              <span class="tech-badge">C / C++</span>
+              <span class="tech-badge">JECRC</span>
+            </div>
+            <div class="project-actions">
+              <a href="#contact" class="btn btn-secondary btn-sm">
+                Connect on Projects 💬
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DOWNLOADS (RESUME & CERTIFICATIONS)
+       ========================================================================== -->
+  <section id="credentials" style="background: rgba(15, 23, 42, 0.3);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Downloads</span>
+        <h2 class="section-title">Resume & <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Downloadable resume and certification documents.</p>
+      </div>
+
+      <div class="credentials-grid">
+        
+        <!-- Download Resume Card -->
+        <div class="resume-download-card">
+          <div>
+            <div class="resume-card-header">
+              <span class="section-tag" style="font-size: 11px; margin-bottom: 8px;">Resume</span>
+              <h3>Akshat Dokania - Resume</h3>
+              <p>Downloadable in PDF format or viewable as a printable page.</p>
+            </div>
+
+            <ul class="resume-features">
+              <li>
+                <span>✓</span>
+                <span>1st Year Computer Science Student at <strong>JECRC University</strong></span>
+              </li>
+              <li>
+                <span>✓</span>
+                <span>Schooling from <strong>DPS Hirak Branch, Dhanbad</strong></span>
+              </li>
+              <li>
+                <span>✓</span>
+                <span>Programming passion since <strong>Covid-19</strong> & hardware hobbies</span>
+              </li>
+              <li>
+                <span>✓</span>
+                <span>Verified contact details, phone, email, and profiles</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-actions-group">
+            <a href="assets/docs/Akshat_Dokania_Resume.pdf" download="Akshat_Dokania_Resume.pdf" class="btn btn-primary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download PDF Resume</span>
+            </a>
+            <button id="preview-resume-btn" class="btn btn-secondary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <span>Preview in Browser</span>
+            </button>
+            <a href="assets/docs/Akshat_Dokania_Resume.html" target="_blank" class="btn btn-secondary" title="Open Clean Printable Page">
+              🖨️ Printable HTML
+            </a>
+          </div>
+        </div>
+
+        <!-- Certifications Download List -->
+        <div class="certs-list">
+          
+          <div class="cert-card">
+            <div class="cert-left">
+              <div class="cert-badge-icon">📜</div>
+              <div>
+                <h4 class="cert-title">Programming Foundations</h4>
+                <p class="cert-issuer">Self-Learning & Practice (Since 2020)</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="btn btn-secondary btn-sm view-cert-btn" 
+                      data-cert-title="Programming Foundations"
+                      data-cert-file="Programming_Foundations_Certificate.pdf">
+                Preview
+              </button>
+              <a href="assets/docs/Programming_Foundations_Certificate.pdf" download="Programming_Foundations_Certificate.pdf" class="btn btn-emerald btn-sm" title="Download Certificate">
+                ⬇️ PDF
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-left">
+              <div class="cert-badge-icon" style="background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.3); color: var(--cyan);">⚡</div>
+              <div>
+                <h4 class="cert-title">Hardware & Systems Essentials</h4>
+                <p class="cert-issuer">PC Assembly & Hardware Troubleshooting</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="btn btn-secondary btn-sm view-cert-btn" 
+                      data-cert-title="Hardware & Systems Essentials"
+                      data-cert-file="Hardware_and_Systems_Certificate.pdf">
+                Preview
+              </button>
+              <a href="assets/docs/Hardware_and_Systems_Certificate.pdf" download="Hardware_and_Systems_Certificate.pdf" class="btn btn-emerald btn-sm" title="Download Certificate">
+                ⬇️ PDF
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-left">
+              <div class="cert-badge-icon" style="background: rgba(139, 92, 246, 0.15); border-color: rgba(139, 92, 246, 0.3); color: var(--violet);">🏫</div>
+              <div>
+                <h4 class="cert-title">Academic Record & Credentials</h4>
+                <p class="cert-issuer">DPS Hirak Branch, Dhanbad</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="btn btn-secondary btn-sm view-cert-btn" 
+                      data-cert-title="Academic Record & Credentials"
+                      data-cert-file="DPS_Academic_Excellence.pdf">
+                Preview
+              </button>
+              <a href="assets/docs/DPS_Academic_Excellence.pdf" download="DPS_Academic_Excellence.pdf" class="btn btn-emerald btn-sm" title="Download Certificate">
+                ⬇️ PDF
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Get in Touch with <span class="gradient-text">Akshat</span></h2>
+        <p class="section-subtitle">Feel free to reach out via phone, email, or social profiles.</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Contact Info -->
+        <div class="contact-info-panel">
+          
+          <!-- Phone Card -->
+          <div class="contact-quick-card">
+            <div class="contact-item-left">
+              <div class="contact-icon-box box-phone">📞</div>
+              <div>
+                <div class="contact-item-title">Phone Number</div>
+                <a href="tel:8767192767" class="contact-item-val">+91 8767192767</a>
+              </div>
+            </div>
+            <div class="contact-item-actions">
+              <a href="tel:8767192767" class="copy-btn" title="Call Now">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </a>
+              <a href="https://wa.me/918767192767" target="_blank" class="copy-btn" title="WhatsApp Chat">
+                💬
+              </a>
+              <button class="copy-btn copy-action-btn" data-copy-text="8767192767" data-copy-label="Phone number" title="Copy Number">
+                📋
+              </button>
+            </div>
+          </div>
+
+          <!-- Email Card -->
+          <div class="contact-quick-card">
+            <div class="contact-item-left">
+              <div class="contact-icon-box box-email">✉️</div>
+              <div>
+                <div class="contact-item-title">Direct Email</div>
+                <a href="mailto:akshatdokania@gmail.com" class="contact-item-val">akshatdokania@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item-actions">
+              <a href="mailto:akshatdokania@gmail.com" class="copy-btn" title="Send Email">
+                ↗️
+              </a>
+              <button class="copy-btn copy-action-btn" data-copy-text="akshatdokania@gmail.com" data-copy-label="Email address" title="Copy Email">
+                📋
+              </button>
+            </div>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-quick-card">
+            <div class="contact-item-left">
+              <div class="contact-icon-box box-linkedin">
+                <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-title">LinkedIn Profile</div>
+                <a href="https://www.linkedin.com/in/akshat-dokania-58964335b" target="_blank" class="contact-item-val">in/akshat-dokania-58964335b</a>
+              </div>
+            </div>
+            <div class="contact-item-actions">
+              <a href="https://www.linkedin.com/in/akshat-dokania-58964335b" target="_blank" class="btn btn-primary btn-sm">
+                Connect ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-quick-card">
+            <div class="contact-item-left">
+              <div class="contact-icon-box box-github">
+                <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-title">GitHub Profile</div>
+                <a href="https://github.com/akshatd0212-dev" target="_blank" class="contact-item-val">github.com/akshatd0212-dev</a>
+              </div>
+            </div>
+            <div class="contact-item-actions">
+              <a href="https://github.com/akshatd0212-dev" target="_blank" class="btn btn-secondary btn-sm">
+                Follow ↗
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Message Form -->
+        <div class="contact-form-card">
+          <h3>Send a Message</h3>
+          <p>Want to get in touch, discuss technology, or share an opportunity? Drop a message below.</p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Your Email</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="e.g. rahul@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Your Message</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Hi Akshat, I would like to connect regarding..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h4>Akshat Dokania</h4>
+          <p>1st Year B.Tech Student @ JECRC University • Dhanbad Native</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">Journey</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#tasks">Tasks</a></li>
+          <li><a href="#credentials">Downloads</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Akshat Dokania. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Details, Resume & Certifications -->
+  <div class="modal-overlay" id="main-modal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
