@@ -126,7 +126,21 @@
 
             <div class="avatar-card">
               <div class="profile-img-box">
-                <img src="assets/images/profile.jpg" alt="Akshat Dokania - Profile Photo" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' fill=\'%231e1b4b\'/><circle cx=\'100\' cy=\'80\' r=\'45\' fill=\'%238b5cf6\'/><circle cx=\'100\' cy=\'200\' r=\'80\' fill=\'%2306b6d4\'/></svg>'">
+                <img id="profile-avatar-img" src="assets/images/profile.jpg" alt="Akshat Dokania - Profile Photo" onerror="
+                  if (!this.dataset.tried) {
+                    this.dataset.tried = 1;
+                    this.src = 'assets/images/profile.png';
+                  } else if (this.dataset.tried == 1) {
+                    this.dataset.tried = 2;
+                    this.src = 'profile.jpg';
+                  } else if (this.dataset.tried == 2) {
+                    this.dataset.tried = 3;
+                    this.src = 'profile.png';
+                  } else {
+                    this.onerror = null;
+                    this.src = 'data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' fill=\'%231e1b4b\'/><circle cx=\'100\' cy=\'80\' r=\'45\' fill=\'%238b5cf6\'/><circle cx=\'100\' cy=\'200\' r=\'80\' fill=\'%2306b6d4\'/></svg>';
+                  }
+                ">
               </div>
 
               <h2 class="avatar-card-name">Akshat Dokania</h2>
