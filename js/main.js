@@ -146,20 +146,25 @@ function initModals() {
   zipInfoBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       modalBody.innerHTML = `
-        <span class="section-tag" style="font-size: 11px;">Archive Status</span>
-        <h3 style="font-size: 22px; font-weight: 800; margin-top: 8px; margin-bottom: 8px;">Programming Tasks (Zip File)</h3>
-        <p style="color: var(--text-secondary); font-size: 14.5px; line-height: 1.7; margin-bottom: 20px;">
-          Contains tasks, code exercises, and scripts created during self-learning since the Covid-19 pandemic.
+        <span class="section-tag" style="font-size: 11px;">Archive Attached</span>
+        <h3 style="font-size: 22px; font-weight: 800; margin-top: 8px; margin-bottom: 8px;">Programming Tasks (tasks.zip)</h3>
+        <p style="color: var(--text-secondary); font-size: 14px; line-height: 1.6; margin-bottom: 18px;">
+          Collection of backend scripts, modular classes, and utility tasks created during self-learning since the Covid-19 pandemic.
         </p>
-        <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 20px; margin-bottom: 20px;">
-          <h4 style="font-size: 15px; font-weight: 700; color: var(--cyan); margin-bottom: 6px;">📂 Upload Status</h4>
-          <p style="font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;">
-            The zip file can be provided / placed in the workspace anytime. As soon as you upload or extract it, the individual tasks will be unpacked and showcased here!
-          </p>
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 18px; margin-bottom: 18px;">
+          <h4 style="font-size: 14.5px; font-weight: 700; color: var(--cyan); margin-bottom: 8px;">📂 Archive Summary:</h4>
+          <ul style="padding-left: 18px; color: var(--text-secondary); font-size: 13px; line-height: 1.7;">
+            <li><strong>File:</strong> <code>tasks.zip</code></li>
+            <li><strong>Core Technologies:</strong> PHP (Modular architecture & classes), API handlers</li>
+            <li><strong>Modules:</strong> Network utilities, cURL requests, proxy routing, APIs</li>
+          </ul>
         </div>
-        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-          <a href="https://github.com/akshatd0212-dev" target="_blank" class="btn btn-primary btn-sm">
-            Visit GitHub Profile ↗
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <a href="tasks.zip" download="tasks.zip" class="btn btn-primary btn-sm">
+            ⬇️ Download tasks.zip
+          </a>
+          <a href="https://github.com/akshatd0212-dev" target="_blank" class="btn btn-secondary btn-sm">
+            GitHub Profile ↗
           </a>
           <button onclick="document.getElementById('modal-close-btn').click()" class="btn btn-secondary btn-sm">Close</button>
         </div>
