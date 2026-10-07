@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshat Dokania - Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    
+    :root {
+      --primary: #2563eb;
+      --dark: #0f172a;
+      --gray: #475569;
+      --border: #e2e8f0;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.5;
+      padding: 30px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .resume-wrapper {
+      background: #ffffff;
+      width: 100%;
+      max-width: 800px;
+      padding: 40px 45px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 18px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    
+    .name-title h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+    }
+    
+    .name-title h2 {
+      font-size: 15px;
+      color: var(--primary);
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    
+    .location-tag {
+      font-size: 12.5px;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    
+    .contact-info {
+      text-align: right;
+      font-size: 13px;
+      color: #334155;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    
+    .contact-info a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .section {
+      margin-bottom: 18px;
+    }
+    
+    .section-title {
+      font-size: 13.5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--primary);
+      font-weight: 700;
+      border-bottom: 1.5px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+    
+    .entry {
+      margin-bottom: 12px;
+    }
+    
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 14px;
+      color: #0f172a;
+    }
+    
+    .entry-sub {
+      font-size: 13px;
+      color: #64748b;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    
+    p, li {
+      font-size: 13px;
+      color: #334155;
+      line-height: 1.6;
+    }
+    
+    ul {
+      padding-left: 18px;
+      margin-top: 4px;
+    }
+    
+    li {
+      margin-bottom: 3px;
+    }
+    
+    .skill-category {
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+    
+    .skill-category strong {
+      color: #0f172a;
+    }
+    
+    .action-bar {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+    
+    .print-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 13.5px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+      transition: all 0.2s;
+    }
+    
+    .print-btn:hover {
+      background: #1d4ed8;
+      transform: translateY(-1px);
+    }
+    
+    @media print {
+      body { background: white; padding: 0; }
+      .resume-wrapper { box-shadow: none; border: none; padding: 15px; max-width: 100%; }
+      .action-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="action-bar">
+    <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <div class="resume-wrapper">
+    <header>
+      <div class="name-title">
+        <h1>Akshat Dokania</h1>
+        <h2>1st Year Computer Science Student • JECRC University</h2>
+        <div class="location-tag">📍 Dhanbad, Jharkhand ➔ Jaipur, Rajasthan</div>
+      </div>
+      <div class="contact-info">
+        <div>📞 <strong>+91 8767192767</strong></div>
+        <div>💼 <a href="https://www.linkedin.com/in/akshat-dokania-58964335b" target="_blank">LinkedIn Profile</a></div>
+        <div>💻 <a href="https://github.com/akshatd0212-dev" target="_blank">github.com/akshatd0212-dev</a></div>
+      </div>
+    </header>
+
+    <!-- Summary -->
+    <div class="section">
+      <div class="section-title">Profile</div>
+      <p>
+        First-year undergraduate student pursuing Computer Science & Engineering at JECRC University. Passionate about programming since the Covid-19 pandemic (2020), with hands-on practice in software tasks and a keen interest in computer hardware and technology.
+      </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="entry">
+        <div class="entry-header">
+          <span>JECRC University</span>
+          <span>Jaipur, Rajasthan</span>
+        </div>
+        <div class="entry-sub">Bachelor of Technology (B.Tech) - Computer Science & Engineering | 2024 – Present</div>
+        <ul>
+          <li>First-year student studying core computer science concepts, programming, and mathematics.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span>Delhi Public School (DPS) Hirak Branch</span>
+          <span>Dhanbad, Jharkhand</span>
+        </div>
+        <div class="entry-sub">School Education (Science Stream)</div>
+        <ul>
+          <li>Completed schooling with focus on Science and Mathematics.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="section">
+      <div class="section-title">Technical Skills</div>
+      <div class="skill-category">
+        <strong>Programming Languages:</strong> Python, C, C++, JavaScript, HTML, CSS, SQL
+      </div>
+      <div class="skill-category">
+        <strong>Hardware & Technology:</strong> PC Assembly, Hardware Troubleshooting, System Optimization, Tech Gadgets
+      </div>
+      <div class="skill-category">
+        <strong>Tools:</strong> VS Code, Git, GitHub, Command Line / PowerShell
+      </div>
+    </div>
+
+    <!-- Journey & Experience -->
+    <div class="section">
+      <div class="section-title">Journey & Highlights</div>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Self-Taught Programming (Since Covid-19)</span>
+          <span>2020 – Present</span>
+        </div>
+        <p>
+          Developed a strong interest in programming during the 2020 pandemic lockdown. Started learning coding fundamentals and solving programming tasks independently.
+        </p>
+      </div>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Technology & Hardware Tinkering</span>
+          <span>Ongoing</span>
+        </div>
+        <p>
+          Enthusiastic about computer hardware, building custom PC systems, understanding components, and exploring modern tech.
+        </p>
+      </div>
+    </div>
+
+    <!-- Certifications & Tasks -->
+    <div class="section">
+      <div class="section-title">Tasks & Certifications</div>
+      <ul>
+        <li><strong>Programming Tasks:</strong> Hands-on programming tasks and code exercises (available in project archive & GitHub).</li>
+        <li><strong>Certifications:</strong> Course completion and academic credentials available upon request.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
